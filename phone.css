@@ -1,22 +1,27 @@
 /* Navigation */
 #navbar{
+    height: 134px;
     position: sticky;
     flex-direction: column;
 }
 #home::before{
-    height: 100%;
-    width: 1817px;
+    height: 98%;
+    width: 171vh;
+    left: 0px;
+    top: 0px;
 }
 #navbar::before{
+    height: 113px;
     width: 1817px;
 }
 #navbar ul li a{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0px 10px;
 }
+
 /* home section */
  #home{
-height: 500px;
+    height: 545px;
 
  }
  #home h1{
@@ -29,9 +34,11 @@ height: 500px;
     grid-template-columns: repeat(3, auto);
 
  }
- #services .box{
+ /* #services .box{
 
- }
+ } */
+ 
+
  /* client section */
 #clients{
 overflow: hidden;
@@ -49,3 +56,8 @@ overflow: hidden;
     width: 1092px;
 }
 /* footer */
+footer{
+    position: absolute;
+    top: 422vh;
+    width: 166vh;
+}

@@ -14,6 +14,7 @@ html{
 } */
 /* navigation bar */
 #navbar {
+    height: 87px;
     display: flex;
     align-items: center;
     position: sticky;
